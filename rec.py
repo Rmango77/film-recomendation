@@ -10,7 +10,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("/mov.jpg")
+    st.image("mov.jpg")
 
 with col3:
     st.write("")
@@ -35,7 +35,7 @@ type_film = st.selectbox("Волк с Уолл-стрит", [5, 4, 3, 2, 1, "Н�
 type_film = st.selectbox("Фарго", [5, 4, 3, 2, 1, "Не смотрел(а)"])
 type_film = st.selectbox("Лило и Стич", [5, 4, 3, 2, 1, "Не смотрел(а)"])
 if st.button('Подобрать подборку'):
-    data = pd.read_csv('/Users/eugeny/Downloads/movie.csv')
+    data = pd.read_csv('movie.csv')
     for i in range(5):
         mark = randint(1, 27277)
         st.write(data.loc[mark, 'title'])
