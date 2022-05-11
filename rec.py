@@ -10,7 +10,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image("/Users/eugeny/Downloads/0*O8OK4ZJtNnakcyQM.jpg")
+    st.image("/mov.jpg")
 
 with col3:
     st.write("")
